@@ -12,6 +12,17 @@
 // the quantity bought.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
+const DEFAULT_APPLE_PRICE: i32 = 2;
+const SPECIAL_APPLE_PRICE: i32 = 1;
+
+fn calculate_price_of_apples(count: i32) -> i32 {
+    if count > 40 {
+        SPECIAL_APPLE_PRICE * count
+    } else {
+        DEFAULT_APPLE_PRICE * count
+    }
+}
+
 fn main() {
     // You can optionally experiment here.
 }
