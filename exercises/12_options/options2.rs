@@ -1,4 +1,7 @@
 fn main() {
+    let mut s = "Kratos".to_string();
+    let t = s;
+    s = "Athray".to_string();
     // You can optionally experiment here.
 }
 
